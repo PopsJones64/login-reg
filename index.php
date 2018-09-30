@@ -14,8 +14,8 @@
 </head>
 <body>
 	
-	<form>
-	  <div class="container">
+	<div class="container">
+		<h3>Please Login</h3>
 		<form>
 		  <div class="form-group">
 		  	<div class="form-row">
@@ -24,6 +24,7 @@
 				    <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter Your email" required>
 		  		</div>
 		  		<div class="col-md-8">
+		  			<hr>
 		  			<h4>Your email address will be kept private</h4>
 		  			<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
 		  		</div>
@@ -34,8 +35,10 @@
 		    		<input type="password" name="password" class="form-control" id="inputPassword" placeholder="Enter Your Password" required>
 		    	</div>
 		    	<div class="col-md-8">
+		    		<hr>
 		    		<h4>Keep Your Password Private</h4>
 		    		<small class="form-text text-muted">We certainly will.</small>
+		    		<hr>
 		    	</div>
 		    </div>
 		    
