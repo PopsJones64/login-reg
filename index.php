@@ -15,17 +15,34 @@
 <body>
 	
 	<form>
-	  <div class="form-group">
-	    <label for="inputEmail">Email address</label>
-	    <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter email" required="required">
-	    <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-	  </div>
-	  <div class="form-group">
-	    <label for="inputPassword">Password</label>
-	    <input type="password" name="password" class="form-control" id="inputPassword" placeholder="Password" required="required">
-	  </div>
-	  <button type="submit" class="btn btn-outline-dark">Submit</button>
-	</form>
+	  <div class="container">
+		<form>
+		  <div class="form-group">
+		  	<div class="form-row">
+		  		<div class="col-md-4">
+		  			<label for="inputEmail">Email address</label>
+				    <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter Your email" required>
+		  		</div>
+		  		<div class="col-md-8">
+		  			<h4>Your email address will be kept private</h4>
+		  			<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+		  		</div>
+		  	</div>
+		    <div class="form-row">
+		    	<div class="col-md-4">
+		    		<label for="inputPassword">Password</label>
+		    		<input type="password" name="password" class="form-control" id="inputPassword" placeholder="Enter Your Password" required>
+		    	</div>
+		    	<div class="col-md-8">
+		    		<h4>Keep Your Password Private</h4>
+		    		<small class="form-text text-muted">We certainly will.</small>
+		    	</div>
+		    </div>
+		    
+		  </div>
+		  <button type="submit" class="btn btn-outline-dark">Submit</button>
+		</form>
+	</div>
 
 
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
