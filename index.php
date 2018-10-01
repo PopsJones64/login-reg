@@ -20,8 +20,10 @@
 	<div class="container">
 		<h3>Please Login or Register</h3>
 		<?php 
+			date_default_timezone_set('America/New_York');
 			echo "Hello There!  Today is:  ";
 			echo date("m d Y");
+			echo "<hr>";
 		?>
 		<a href="login.php">Login</a><a href="register.php"> | Register</a>
 	</div>
