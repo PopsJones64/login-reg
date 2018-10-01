@@ -5,6 +5,10 @@
 	}
 
 	// Configuration code is below
+	// Include the database connection
+
+	include_once "classes/db.php";
+	$con = DB::getConnection();
 
 	
 ?>
