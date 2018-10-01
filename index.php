@@ -1,5 +1,8 @@
 <?php 
-	
+	// authorize config file for this page
+	define('__CONFIG__', true);
+	// include config file
+	include_once "include/config.php";
 ?>
 
 <!DOCTYPE html>
@@ -15,46 +18,17 @@
 <body>
 	
 	<div class="container">
-		<h3>Please Login</h3>
-		<form>
-		  <div class="form-group">
-		  	<div class="form-row">
-		  		<div class="col-md-4">
-		  			<label for="inputEmail">Email address</label>
-				    <input type="email" name="email" class="form-control" id="inputEmail" aria-describedby="emailHelp" placeholder="Enter Your email" required>
-		  		</div>
-		  		<div class="col-md-8">
-		  			<hr>
-		  			<h4>Your email address will be kept private</h4>
-		  			<small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-		  		</div>
-		  	</div>
-		    <div class="form-row">
-		    	<div class="col-md-4">
-		    		<label for="inputPassword">Password</label>
-		    		<input type="password" name="password" class="form-control" id="inputPassword" placeholder="Enter Your Password" required>
-		    	</div>
-		    	<div class="col-md-8">
-		    		<hr>
-		    		<h4>Keep Your Password Private</h4>
-		    		<small class="form-text text-muted">We certainly will.</small>
-		    		<hr>
-		    	</div>
-		    </div>
-		    
-		  </div>
-		  <button type="submit" class="btn btn-outline-dark">Submit</button>
-		</form>
+		<h3>Please Login or Register</h3>
+		<?php 
+			echo "Hello There!  Today is:  ";
+			echo date("m d Y");
+		?>
+		<a href="login.php">Login</a><a href="register.php"> | Register</a>
 	</div>
 
-
-	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" 
-	integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
-	crossorigin="anonymous"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" 
-	integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" 
-	crossorigin="anonymous"></script>
-	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+	<?php 
+		include_once "include/footer.php";
+	?>
 
 </body>
 </html>
