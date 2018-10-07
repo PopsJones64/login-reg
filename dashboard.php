@@ -6,6 +6,7 @@
 	require_once "include/config.php"; 
 
 	forceLogin();
+  exit;
 
 ?>
 

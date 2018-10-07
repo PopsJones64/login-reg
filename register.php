@@ -44,7 +44,7 @@
 		    		<hr>
 		    	</div>
 		    </div>
-		    <div class='alert alert-danger js-error' style='display: none;'>TEST</div>
+		    <div class='alert alert-danger js-error' style='display: none;'></div>
 		  </div>
 		  <button type="submit" class="btn btn-outline-dark">Submit</button>
 		</form>

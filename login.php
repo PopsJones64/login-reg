@@ -19,7 +19,7 @@
 	
 	<div class="container">
 		<h3>Please Login</h3>
-		<form>
+		<form class="js-login">
 		  <div class="form-group">
 		  	<div class="form-row">
 		  		<div class="col-md-4">
@@ -44,7 +44,7 @@
 		    		<hr>
 		    	</div>
 		    </div>
-		    
+		    <div class='alert alert-danger js-error' style='display: none;'></div>
 		  </div>
 		  <button type="submit" class="btn btn-outline-dark">Submit</button>
 		</form>
