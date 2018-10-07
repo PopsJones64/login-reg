@@ -19,7 +19,7 @@
 	
 	<div class="container">
 		<h3>Please Register</h3>
-		<form>
+		<form class='js-register'>
 		  <div class="form-group">
 		  	<div class="form-row">
 		  		<div class="col-md-4">
@@ -44,7 +44,7 @@
 		    		<hr>
 		    	</div>
 		    </div>
-		    
+		    <div class='alert alert-danger js-error' style='display: none;'>TEST</div>
 		  </div>
 		  <button type="submit" class="btn btn-outline-dark">Submit</button>
 		</form>
