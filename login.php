@@ -3,6 +3,7 @@
 	define('__CONFIG__', true);
 	// include config file
 	include_once "include/config.php";
+	forceDashboard();
 ?>
 
 <!DOCTYPE html>
@@ -46,7 +47,7 @@
 		    </div>
 		    <div class='alert alert-danger js-error' style='display: none;'></div>
 		  </div>
-		  <button type="submit" class="btn btn-outline-dark">Submit</button>
+		  <button type="submit" class="btn btn-outline-dark">Login</button>
 		</form>
 	</div>
 
