@@ -18,7 +18,7 @@
 
 		if($findUser->rowCount() == 1) {
 			// User exists
-			$return['error'] = "Email already exists.  Please login.";
+			$return['error'] = "Email already exists.  Please <a href='login.php'>login</a>.";
 			$return['is_logged_in'] = false;
 		} else {
 			// User does not exist, add user

@@ -28,6 +28,7 @@
 
   	<div class="container">
   		<h3>Dashboard Page</h3>
+      <?php echo "You are logged in as " . $_SESSION['user_id'] . ". <a href = 'logout.php'>Logout</a>"; ?>
   	</div>
 
   	<?php require_once "include/footer.php"; ?> 
