@@ -18,18 +18,18 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="robots" content="follow">
 
-    <title>Page Title</title>
+    <title>Member Page | Dashboard</title>
 
     <base href="/" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/uikit/3.0.0-beta.24/css/uikit.min.css" />
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   </head>
 
   <body>
 
-  	<div class="uk-section uk-container">
-  		
+  	<div class="container">
+  		<h3>Dashboard Page</h3>
   	</div>
 
-  	<?php require_once "inc/footer.php"; ?> 
+  	<?php require_once "include/footer.php"; ?> 
   </body>
 </html>
